@@ -8,7 +8,7 @@ export default defineConfig({
     include: ['@google/model-viewer', 'three'], 
   },
   build: {
-    outDir: "build"
+    outDir: "dist"
   },
   server: {
     host:"0.0.0.0",
